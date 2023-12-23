@@ -1,6 +1,7 @@
 // import ProductList from "./features/product-list/ProductList.jsx";
 // import Cart from "./features/cart/Cart.jsx";
 import CartPage from "./pages/CartPage.jsx";
+import Checkout from "./pages/Checkout.jsx";
 import Home from "./pages/Home.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import SignupPage from "./pages/SignupPage.jsx";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "cart",
     element: <CartPage />,
+  },
+  {
+    path: "checkout",
+    element: <Checkout />,
   },
 ]);
 
